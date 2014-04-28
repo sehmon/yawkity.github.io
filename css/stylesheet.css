@@ -1,37 +1,70 @@
 /* CSS Goes Here */
-html {
-	background-color: white;
-}
-
 body {
 	margin:0;
+
 }
+
 * {
-	font-family: sans-serif;
+	font-family: Lato, sans-serif;
+	border: 1px solid red;
+}
+
+.name {
+	margin: 2px;
 }
 
 .navbar {
-	height: 50px;
-	background-color: black;
+	background-color: #22313F;
 	width: 100%;
 	color: white;
+	padding:autp 7px;
 }
 
 .navbar li {
 	display: inline;
-	margin: 7px;
+	margin: 10px;
 }
 
-.navname {
-	display: inline;
-	float: left;
-	margin-left: 10px;
+.navlinks {	
+	font-size: 15px;
+	margin: auto 5px;
 }
 
+.intro:before {
+	background-image: url("../img/cityscape.jpg");
+	background-position: center;
+	height: 600px;
+	-webkit-filter: blur(5px);
+  	-moz-filter: blur(5px);
+  	-o-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	filter: blur(5px);
+  	content: "";
 
-.navlinks {
-	display: inline;
-	margin-right: auto;
-	float: right;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
 
+.introname {
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
+}
+
+.intro {
+	height: 550px;
+}
+
+.introtext {
+	vertical-align: center;
+}
+.introdescription {
+	text-align: center;
+}
+
+.introtextcontainer {
+
+	margin: 50px;
 }
