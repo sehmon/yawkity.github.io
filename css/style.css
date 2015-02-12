@@ -298,7 +298,11 @@ body {
 }
 
 #slide-2 {
+<<<<<<< HEAD
 	background-color: #1abc9c;
+=======
+	background-color: #34495e;
+>>>>>>> master
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -377,7 +381,11 @@ body {
 }
 
 #slide-3 {
+<<<<<<< HEAD
 	background-color: #f39c12;
+=======
+	background-color: #95a5a6;
+>>>>>>> master
 	color: #e4e6e5;
 	padding-top: 90px;
 }
@@ -392,7 +400,11 @@ body {
 
 
 #slide-5 {
+<<<<<<< HEAD
 	background-color: #f39c12;
+=======
+	background-color: #95a5a6;
+>>>>>>> master
 	color: #e4e6e5;
 	padding-top: 90px;
 }
