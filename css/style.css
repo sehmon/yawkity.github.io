@@ -38,7 +38,8 @@ body {
 }
 
 .justify-text {
-	text-align: justify;
+	text-align: center;
+    text-justify: auto;
 }
 
 .navbar {
