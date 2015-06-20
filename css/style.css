@@ -481,12 +481,3 @@ body {
 #registerLink {
     color: #666666;
 }
-
-table {
-    border: 1px solid white;
-}
-
-td {
-    padding: 10px;
-    border: 1px solid white;
-}
